@@ -1,0 +1,26 @@
+create view data2.[Customer] as
+SELECT  [CustomerKey]
+      ,[Gender]
+      ,[Title]
+      ,[GivenName]
+      ,[MiddleInitial]
+      ,[Surname]
+      ,[StreetAddress]
+      ,[City]
+      ,[State]
+      ,[StateFull]
+      ,[ZipCode]
+      ,[Country]
+      ,[CountryFull]
+      ,[Birthday]
+      ,[Age]
+      ,[Occupation]
+      ,[Company]
+      ,[Vehicle]
+      ,[Latitude]
+      ,[Longitude]
+      ,[Continent]
+  FROM [Data].[Customer]
+
+GO
+
