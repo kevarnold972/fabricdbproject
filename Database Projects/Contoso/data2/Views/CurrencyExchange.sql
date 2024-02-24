@@ -1,5 +1,5 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
-Create view Data2.[CurrencyExchange]
+Create view data2.[CurrencyExchange]
 as
 SELECT [Date]
       ,[FromCurrency]

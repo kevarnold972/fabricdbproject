@@ -1,0 +1,10 @@
+**/.pbi/localSettings.json
+
+**/.pbi/cache.abf
+
+*.tmuo
+
+**/Database Projects/*/obj
+**/Database Projects/*/bin
+
+*.pbix

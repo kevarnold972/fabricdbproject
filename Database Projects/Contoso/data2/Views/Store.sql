@@ -1,4 +1,4 @@
-create view Data2.[Store]
+create view data2.[Store]
 as
 SELECT [StoreKey]
       ,[Store Code] [Store_Code]

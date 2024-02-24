@@ -1,4 +1,4 @@
-create view Data2.[Orders] as
+create view data2.[Orders] as
 
 SELECT [OrderKey]
       ,[CustomerKey]

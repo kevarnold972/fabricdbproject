@@ -1,4 +1,4 @@
-create view Data2.[GeoLocations] as
+create view data2.[GeoLocations] as
 SELECT [GeoLocationKey]
       ,[CountryCode]
       ,[Country]
