@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Name>Contoso</Name>
     <ProjectGuid>{B3DF6350-DDAF-41BD-B573-69A4527EBAD9}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlDwUnifiedDatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <Target Name="BeforeBuild">

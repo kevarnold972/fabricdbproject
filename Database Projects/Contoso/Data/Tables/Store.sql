@@ -1,13 +1,13 @@
 CREATE TABLE [Data].[Store] (
     [StoreKey]      INT            NOT NULL,
     [Store Code]    INT            NULL,
-    [Country]       NVARCHAR (50)  NULL,
-    [State]         NVARCHAR (50)  NULL,
-    [Name]          NVARCHAR (100) NULL,
+    [Country]       VARCHAR (50)  NULL,
+    [State]         VARCHAR (50)  NULL,
+    [Name]          VARCHAR (100) NULL,
     [Square Meters] INT            NULL,
     [Open Date]     DATE           NULL,
     [Close Date]    DATE           NULL,
-    [Status]        NVARCHAR (50)  NULL,
+    [Status]        VARCHAR (50)  NULL,
     PRIMARY KEY CLUSTERED ([StoreKey] ASC)
 );
 
