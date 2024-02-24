@@ -12,7 +12,7 @@ CREATE TABLE [Data].[Customer] (
     [ZipCode]       VARCHAR (50)  NULL,
     [Country]       VARCHAR (50)  NULL,
     [CountryFull]   VARCHAR (50)  NULL,
-    [Birthday]      DATETIME2 (7)  NULL,
+    [Birthday]      DATETIME2 (6)  NULL,
     [Age]           INT            NULL,
     [Occupation]    VARCHAR (100) NULL,
     [Company]       VARCHAR (50)  NULL,
@@ -20,7 +20,7 @@ CREATE TABLE [Data].[Customer] (
     [Latitude]      FLOAT (53)     NULL,
     [Longitude]     FLOAT (53)     NULL,
     [Continent]     VARCHAR (50)  NULL,
-    CONSTRAINT [PK_Customer_CustomerKey] PRIMARY KEY NONCLUSTERED ([CustomerKey] ASC) WITH (DATA_COMPRESSION = PAGE)
+    CONSTRAINT [PK_Customer_CustomerKey] PRIMARY KEY NONCLUSTERED ([CustomerKey] ASC) 
 );
 
 

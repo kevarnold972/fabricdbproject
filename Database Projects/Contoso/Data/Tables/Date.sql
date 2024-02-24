@@ -16,7 +16,7 @@ CREATE TABLE [Data].[Date] (
     [Day of Week Number]  INT           NULL,
     [Working Day]         BIT           NULL,
     [Working Day Number]  INT           NULL,
-    PRIMARY KEY CLUSTERED ([Date] ASC)
+    CONSTRAINT [PK_Date_Date] PRIMARY KEY NONCLUSTERED ([Date] ASC)
 );
 
 

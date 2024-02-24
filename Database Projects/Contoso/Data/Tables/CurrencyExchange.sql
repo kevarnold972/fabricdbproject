@@ -3,7 +3,7 @@ CREATE TABLE [Data].[CurrencyExchange] (
     [FromCurrency] VARCHAR (3)  NOT NULL,
     [ToCurrency]   VARCHAR (3)  NOT NULL,
     [Exchange]     FLOAT (53) NULL,
-    PRIMARY KEY CLUSTERED ([Date] ASC, [FromCurrency] ASC, [ToCurrency] ASC)
+    CONSTRAINT [PK_CurrencyExchange] PRIMARY KEY NONCLUSTERED ([Date] ASC, [FromCurrency] ASC, [ToCurrency] ASC)
 );
 
 
