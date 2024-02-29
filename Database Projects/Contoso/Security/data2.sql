@@ -1,6 +1,0 @@
-CREATE SCHEMA [data2]
-    AUTHORIZATION [dbo];
-
-
-GO
-
