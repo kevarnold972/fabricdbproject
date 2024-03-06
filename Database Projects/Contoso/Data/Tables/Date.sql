@@ -15,8 +15,7 @@ CREATE TABLE [Data].[Date] (
     [Day of Week Short]   VARCHAR (30) NULL,
     [Day of Week Number]  INT           NULL,
     [Working Day]         BIT           NULL,
-    [Working Day Number]  INT           NULL,
-    CONSTRAINT [PK_Date_Date] PRIMARY KEY NONCLUSTERED ([Date] ASC)
+    [Working Day Number]  INT           NULL
 );
 
 

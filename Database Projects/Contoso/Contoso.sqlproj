@@ -10,6 +10,17 @@
   <ItemGroup>
     <None Include="FabricFriday1.publish.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="Scripts\OrderFKs.sql" />
+    <Build Remove="Scripts\OrderRowsFK.sql" />
+    <Build Remove="Scripts\TablePKs.sql" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>

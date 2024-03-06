@@ -12,8 +12,7 @@ CREATE TABLE [Data].[Product] (
     [Subcategory Code]    VARCHAR (100) NULL,
     [Subcategory]         VARCHAR (50)  NULL,
     [Category Code]       VARCHAR (100) NULL,
-    [Category]            VARCHAR (30)  NULL,
-    CONSTRAINT [PK_Product_ProductKey] PRIMARY KEY NONCLUSTERED ([ProductKey] ASC)
+    [Category]            VARCHAR (30)  NULL
 );
 
 

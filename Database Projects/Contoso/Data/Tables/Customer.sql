@@ -19,8 +19,7 @@ CREATE TABLE [Data].[Customer] (
     [Vehicle]       VARCHAR (50)  NULL,
     [Latitude]      FLOAT (53)     NULL,
     [Longitude]     FLOAT (53)     NULL,
-    [Continent]     VARCHAR (50)  NULL,
-    CONSTRAINT [PK_Customer_CustomerKey] PRIMARY KEY NONCLUSTERED ([CustomerKey] ASC) 
+    [Continent]     VARCHAR (50)  NULL
 );
 
 

@@ -1,0 +1,47 @@
+ALTER TABLE [Data].[CurrencyExchange]
+    ADD CONSTRAINT [PK_CurrencyExchange] PRIMARY KEY NONCLUSTERED ([Date] ASC, [FromCurrency] ASC, [ToCurrency] ASC) NOT ENFORCED;
+
+
+GO
+ALTER TABLE [Data].[Customer]
+    ADD CONSTRAINT [PK_Customer_CustomerKey] PRIMARY KEY NONCLUSTERED ([CustomerKey] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[Date]
+    ADD CONSTRAINT [PK_Date_Date] PRIMARY KEY NONCLUSTERED ([Date] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[GeoLocations]
+    ADD CONSTRAINT [PK_GeoLocations_GeoLocationKey] PRIMARY KEY NONCLUSTERED ([GeoLocationKey] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[OrderRows]
+    ADD CONSTRAINT [PK_OrderRows_OrderItemKey] PRIMARY KEY NONCLUSTERED ([OrderItemKey] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[Orders]
+    ADD CONSTRAINT [PK_Orders_OrderKey] PRIMARY KEY NONCLUSTERED ([OrderKey] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[Product]
+    ADD CONSTRAINT [PK_Product_ProductKey] PRIMARY KEY NONCLUSTERED ([ProductKey] ASC) NOT ENFORCED;
+
+
+GO
+
+ALTER TABLE [Data].[Store]
+    ADD CONSTRAINT [PK_Store_StoreKey] PRIMARY KEY NONCLUSTERED ([StoreKey] ASC) NOT ENFORCED;
+
+
+GO
+

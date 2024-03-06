@@ -6,10 +6,10 @@ CREATE TABLE [Data].[OrderRows] (
     [Unit Price]   DECIMAL(12,4)  NULL,
     [Net Price]    DECIMAL(12,4)  NULL,
     [Unit Cost]    DECIMAL(12,4)  NULL,
-    [OrderItemKey] BIGINT  NOT NULL,
-    CONSTRAINT [PK_OrderRows_OrderItemKey] PRIMARY KEY NONCLUSTERED ([OrderItemKey] ASC)
+    [OrderItemKey] BIGINT  NOT NULL
 );
 
 
 GO
+
 
